@@ -45,7 +45,7 @@ EMAIL - ciso@tuta.io
       2. sudo apt install git \
       3. cd /home \
       4. git clone https://github.com/amnesia-ciso/mnsinstall.git 
-- INSTALL STAGE(5-8) 
+- INSTALL STAGE(5-8) \
       5. cd mnsinstall \
       6. sudo ./install.sh \
       7. Wait \
@@ -61,6 +61,6 @@ EMAIL - ciso@tuta.io
       5. OPEN Terminal and execute commands \
       6. cd /media/$(logname)/<PRESS "TAB" BUTTON HERE IF USB IS SINGLE> \
       7. mv mnsinstall /home/$(logname)/ 
-- INSTALL STAGE(8-9) 
+- INSTALL STAGE(8-9) \
       8. cd /home/$(logname)/mnsinstall \
       9. sudo ./install.sh 
