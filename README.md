@@ -7,7 +7,7 @@ It is script for fast install software bundle "aMNeSia"
 - [Plans list](#PLIST)
 - [Manual 1: Network install](#MAN1)
 - [Manual 2: Local install](#MAN2)
-- [ALSO](#ALSO)
+- [Contacts and options](#ALSO)
 
 It is script for fast install software bundle "aMNeSia"
 Contain driver for TP-Link Nano and making software update.
