@@ -7,6 +7,7 @@ It is script for fast install software bundle "aMNeSia"
 - [Plans list](#PLIST)
 - [Manual 1: Network install](#MAN1)
 - [Manual 2: Local install](#MAN2)
+- [ALSO](#ALSO)
 
 It is script for fast install software bundle "aMNeSia"
 Contain driver for TP-Link Nano and making software update.
@@ -64,6 +65,7 @@ EMAIL - ciso@tuta.io
       9. cd /home/$(logname)/mnsinstall \
       10. sudo ./install.sh 
 
-<i>also you can make cmd mv mninstall.zip /media/$(logname)/USBDEVICEDIR and extract it in target device .zip \ </i>
-<i>but you should install additional packages, to do this use command - sudo apt install zip unzip. \ </i>
-<i>to unzip in target divice skip <b>third (4) step in MANUAL 2: TRANSFER STAGE (1-8)</b>   \ </i>
+### <a name="ALSO"> <i>also</i>
+- <i>you can make cmd mv mninstall.zip /media/$(logname)/USBDEVICEDIR and extract it in target device .zip  </i>
+- <i>but you should install additional packages, to do this use command - sudo apt install zip unzip.  </i>
+- <i>to unzip in target divice skip <b>third (4) step in MANUAL 2: TRANSFER STAGE (1-8)</b>   </i>
