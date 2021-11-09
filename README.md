@@ -1,8 +1,22 @@
 # mnsinsall
 It is script for fast install software bundle "aMNeSia"
 Contain driver for TP-Link Nano and making software update.
+SOFTWARE LIST:
+refind_0.13.2-1_amd64.deb
+franz_5.7.0_amd64.deb
+ferdi_5.6.3_amd64.deb
+protonvpn-stable-release_1.0.1-1_all.deb
+google-chrome-stable_current_amd64.deb
+Tor Browser
+VIPole
+Telegram
 
-IN PROGRESS: Docker container in Docker Hub; files remove script after installation;
+IN PROGRESS:
+Docker container in Docker Hub; 
+files remove script after installation;  
+Version without macbook efi boot installation;
+Add putty in software list;
+
 
 ALSO YOU CAN TEXT ME AND I WILL MAKE INSTALL-SCRIPT WITH YOUR SOFTWARE LIST
 
