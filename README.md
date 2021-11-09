@@ -65,4 +65,4 @@ Contain driver for TP-Link Nano and making software update.
 - <i>but you should install additional packages, to do this use command - sudo apt install zip unzip.  </i>
 - <i>to unzip in target divice skip <b>third (4) step in MANUAL 2: TRANSFER STAGE (1-8)</b>   </i>
 ### <i>ALSO YOU CAN TEXT ME AND I WILL MAKE INSTALL-SCRIPT WITH YOUR SOFTWARE LIST</i>
-     - EMAIL - ciso@tuta.io
+ - EMAIL - ciso@tuta.io
