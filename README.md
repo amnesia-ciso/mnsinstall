@@ -45,7 +45,7 @@ Contain driver for TP-Link Nano and making software update.
 -  <b>INSTALL STAGE(5-7)</b> \
       5. cd mnsinstall \
       6. sudo ./install.sh \
-      7. Wait and Enjoy \
+      7. Wait and Enjoy 
  ### <a name="MAN2"></a> MANUAL 2: TRANSFER STAGE (1-8); INSTALL STAGE(9-10);
 - <b>TRANSFER STAGE(1-8)</b> \
       1. Use device with USB hub, and internet connection \
