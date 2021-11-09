@@ -1,9 +1,12 @@
 # mnsinstall
+
+It is script for fast install software bundle "aMNeSia"
+
 # LINKS
-[link](#SLIST)
-[link](#PLIST)
-[link](#MAN1)
-[link](#MAN2)
+- [Software list](#SLIST)
+- [Plans list](#PLIST)
+- [Manual 1: Network install](#MAN1)
+- [Manual 2: Local install](#MAN2)
 
 It is script for fast install software bundle "aMNeSia"
 Contain driver for TP-Link Nano and making software update.
