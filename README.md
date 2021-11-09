@@ -50,17 +50,19 @@ EMAIL - ciso@tuta.io
       6. sudo ./install.sh \
       7. Wait \
       8. Enjoy 
-### <a name="MAN2"></a> MANUAL 2: TRANSFER STAGE (1-7); INSTALL STAGE(8-9);
-- <b>TRANSFER STAGE(1-7)</b> \
+### <a name="MAN2"></a> MANUAL 2: TRANSFER STAGE (1-8); INSTALL STAGE(9-10);
+- <b>TRANSFER STAGE(1-8)</b> \
       1. Use device with USB hub, and internet connection \
       2. Run web-browser and go to link https://github.com/amnesia-ciso/mnsinstall/archive/refs/heads/main.zip \
-      3. Wait download of .zip file. And extract directory "mnsinstall" to usb device root \
-                     - also you can make cmd mv mninstall.zip /media/$(logname)/USBDEVICEDIR and extract it in target device .zip \
-                     - but you should install additional packages, to do this use command - sudo apt install zip unzip. \
-      4. Mount Flash with unziped folder /media USB to your target device. \
-      5. OPEN Terminal and execute commands \
-      6. cd /media/$(logname)/<PRESS "TAB" BUTTON HERE IF USB IS SINGLE> \
-      7. mv mnsinstall /home/$(logname)/ 
-- <b>INSTALL STAGE(8-9)</b> \
-      8. cd /home/$(logname)/mnsinstall \
-      9. sudo ./install.sh 
+      3. Wait download of .zip file.
+      4. extract directory "mnsinstall" to usb device root \
+      5. Mount Flash with unziped folder /media USB to your target device. \
+      6. OPEN Terminal and execute commands \
+      7. cd /media/$(logname)/<PRESS "TAB" BUTTON HERE IF USB IS SINGLE> \
+      8. mv mnsinstall /home/$(logname)/ 
+<i>also you can make cmd mv mninstall.zip /media/$(logname)/USBDEVICEDIR and extract it in target device .zip \ </i>
+<i>but you should install additional packages, to do this use command - sudo apt install zip unzip. \ </i>
+<i>to unzip in target divice skip <b>third (4) step in MANUAL 2: TRANSFER STAGE (1-8)</b>   \ </i>
+- <b>INSTALL STAGE(9-10)</b> \
+      9. cd /home/$(logname)/mnsinstall \
+      10. sudo ./install.sh 
