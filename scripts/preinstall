@@ -1,13 +1,14 @@
 #!/bin/bash
+USER=$(logname)
 #This install making for ur linux bundle of special programs
 cd .. && cd drivers/rtl8812au-1-5.3.4
 ./dkms-install.sh
 echo "Please setup WIFI connection u have 100seconds, or teminate script set-up WIFI, and relaunch"
 sleep 5
 cd .. && cd .. && cd deb
-wget https://github.com/getferdi/ferdi/releases/download/v5.6.3/ferdi_5.6.3_amd64.deb && chown amnesia ferdi_5.6.3_amd64.deb
-wget https://github.com/meetfranz/franz/releases/download/v5.7.0/franz_5.7.0_amd64.deb && chown amnesia franz_5.7.0_amd64.deb
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && chown amnesia google-chrome-stable_current_amd64.deb
+wget https://github.com/getferdi/ferdi/releases/download/v5.6.3/ferdi_5.6.3_amd64.deb && chown $USER ferdi_5.6.3_amd64.deb
+wget https://github.com/meetfranz/franz/releases/download/v5.7.0/franz_5.7.0_amd64.deb && chown $USER franz_5.7.0_amd64.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && chown $USER google-chrome-stable_current_amd64.deb
 apt update && apt-get update
 cd .. && cd run
 wget https://www.vipole.com/download/vipole.x86_64.run
