@@ -41,14 +41,15 @@ EMAIL - ciso@tuta.io
 
 ### <a name="MAN1"></a> MANUAL 1: STAGE DOWNLOAD(1-4); INSTALL STAGE(5-8);
 - DOWNLOAD STAGE(1-4)
-     -1. OPEN Terminal
-     -2. sudo apt install git
-     -3. cd /home
-     -4. git clone https://github.com/amnesia-ciso/mnsinstall.git
+    <ol>
+     <li> OPEN Terminal</li>
+     -2. sudo apt install git</li>
+     -3. cd /home</li>
+     -4. git clone https://github.com/amnesia-ciso/mnsinstall.git</li>
 - INSTALL STAGE(5-8) 
-     -5. cd mnsinstall
-     -6. sudo ./install.sh
-     -7. Wait
+     -5. cd mnsinstall</li>
+     -6. sudo ./install.sh</li>
+     -7. Wait</li>
      -8. Enjoy
 ### <a name="MAN2"></a> MANUAL 2: TRANSFER STAGE (1-7); INSTALL STAGE(8-9);
 - TRANSFER STAGE(1-7)
