@@ -13,7 +13,7 @@ Contain driver for TP-Link Nano and making software update.
    - tar
      - Tor Browser
      - Telegram
-    -run
+   - run
      - VIPole
 
 
