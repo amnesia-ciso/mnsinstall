@@ -18,13 +18,14 @@ Contain driver for TP-Link Nano and making software update.
 
 
 # IN PROGRESS:
-Docker container in Docker Hub; 
-files remove script after installation;  
-Version without macbook efi boot installation;
-Add putty in software list;
+* Docker container in Docker Hub; 
+* files remove script after installation;  
+* Version without macbook efi boot installation;
+* Add putty in software list;
 
 
 # ALSO YOU CAN TEXT ME AND I WILL MAKE INSTALL-SCRIPT WITH YOUR SOFTWARE LIST
+EMAIL - ciso@tuta.io
 
 # MANUAL:STAGE DOWNLOAD(1-4) INSTALL(5-8)
 1. OPEN Terminal
