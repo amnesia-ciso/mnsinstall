@@ -3,18 +3,18 @@ It is script for fast install software bundle "aMNeSia"
 Contain driver for TP-Link Nano and making software update.
 # SOFTWARE LIST:
 - included
-  - refind_0.13.2-1_amd64.deb
-  - protonvpn-stable-release_1.0.1-1_all.deb 
+    - refind_0.13.2-1_amd64.deb
+    - protonvpn-stable-release_1.0.1-1_all.deb 
 - downloadable
- - deb
-   - franz_5.7.0_amd64.deb
-   - ferdi_5.6.3_amd64.deb
-   - google-chrome-stable_current_amd64.deb
- - tar
-    - Tor Browser
-    - Telegram
-  -run
-    - VIPole
+   - deb
+     - franz_5.7.0_amd64.deb
+     - ferdi_5.6.3_amd64.deb
+     - google-chrome-stable_current_amd64.deb
+   - tar
+     - Tor Browser
+     - Telegram
+    -run
+     - VIPole
 
 
 # IN PROGRESS:
