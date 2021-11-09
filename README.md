@@ -1,7 +1,7 @@
-# mnsinsall
+# mnsinstall
 It is script for fast install software bundle "aMNeSia"
 Contain driver for TP-Link Nano and making software update.
-SOFTWARE LIST:
+# SOFTWARE LIST:
 refind_0.13.2-1_amd64.deb
 franz_5.7.0_amd64.deb
 ferdi_5.6.3_amd64.deb
@@ -11,17 +11,16 @@ Tor Browser
 VIPole
 Telegram
 
-IN PROGRESS:
+# IN PROGRESS:
 Docker container in Docker Hub; 
 files remove script after installation;  
 Version without macbook efi boot installation;
 Add putty in software list;
 
 
-ALSO YOU CAN TEXT ME AND I WILL MAKE INSTALL-SCRIPT WITH YOUR SOFTWARE LIST
+# ALSO YOU CAN TEXT ME AND I WILL MAKE INSTALL-SCRIPT WITH YOUR SOFTWARE LIST
 
-MANUAL
-STAGE DOWNLOAD(1-4) INSTALL(5-8)
+# MANUAL:STAGE DOWNLOAD(1-4) INSTALL(5-8)
 1. OPEN Terminal
 2. sudo apt install git
 3. cd /home
