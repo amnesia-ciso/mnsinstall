@@ -54,8 +54,8 @@ Contain driver for TP-Link Nano and making software update.
       4. extract directory "mnsinstall" to usb device root \
       5. Mount Flash with unziped folder /media USB to your target device. \
       6. OPEN Terminal and execute commands \
-      7. cd /media/$(logname)/<PRESS "TAB" BUTTON HERE IF USB IS SINGLE> \
-      8. mv mnsinstall /home/$(logname)/ \
+      7. cd /media/$(logname)/<PRESS "TAB" BUTTON HERE IF USB IS SINGLE \
+      8. mv mnsinstall /home/$(logname)/ 
 - <b>INSTALL STAGE(9-10)</b> \
       9. cd /home/$(logname)/mnsinstall \
       10. sudo ./install.sh 
