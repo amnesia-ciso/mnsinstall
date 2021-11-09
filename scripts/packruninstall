@@ -1,0 +1,9 @@
+#!/bin/bash
+USER=$(logname)
+cd ../../ && mkdir Software && chmod 777 Software
+cd mnsinstall && cd run
+chown $USER vipole.x86_64.run && chmod +x vipole.x86_64.run
+echo "Install VIPole in /home/%USERNAME%/Software"
+./vipole.x86_64.run
+cd .. && cd scripts
+

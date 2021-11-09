@@ -1,0 +1,7 @@
+#!/bin/bash
+apt-get upgrade
+apt upgrade
+apt-get update
+apt update
+echo "INSTALLATION IF FINISHED"
+sleep 100
