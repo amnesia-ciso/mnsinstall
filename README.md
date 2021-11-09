@@ -55,8 +55,8 @@ EMAIL - ciso@tuta.io
       1. Use device with USB hub, and internet connection \
       2. Run web-browser and go to link https://github.com/amnesia-ciso/mnsinstall/archive/refs/heads/main.zip \
       3. Wait download of .zip file. And extract directory "mnsinstall" to usb device root \
-                    - also you can make cmd mv mninstall.zip /media/$(logname)/USBDEVICEDIR and extract it in target device .zip \
-                    - but you should install additional packages, to do this use command - sudo apt install zip unzip. \
+                     - also you can make cmd mv mninstall.zip /media/$(logname)/USBDEVICEDIR and extract it in target device .zip \
+                     - but you should install additional packages, to do this use command - sudo apt install zip unzip. \
       4. Mount Flash with unziped folder /media USB to your target device. \
       5. OPEN Terminal and execute commands \
       6. cd /media/$(logname)/<PRESS "TAB" BUTTON HERE IF USB IS SINGLE> \
