@@ -1,0 +1,11 @@
+IF YOU WANT MAKE WORKING OS 
+
+PUT INTO DEB DIRECTORY
+
+google-chrome-stable_current_amd64.deb
+franz_x.x.x_amd64.deb
+ferdi_x.x.x_amd64.deb
+
+EDIT FRANZ AND FERDI VERSIONS in script "packdebinstall"
+If you want also clone this repo and make your personal
+after installation script for your Linux Based OS
