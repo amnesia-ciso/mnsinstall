@@ -16,9 +16,10 @@ Contain driver for TP-Link Nano and making software update.
 - Download .zip, extract in /home directory, and make actions from Manual - INSTALL STAGE(5-7) 
 - Run terminal and use commands: wget https://github.com/amnesia-ciso/mnsinstall/archive/refs/heads/main.zip
 ### <a name="SLIST"></a> SOFTWARE LIST:
-- included deb
-     - protonvpn-stable-release_1.0.1-1_all.deb 
-     - <i>#refind_0.13.2-1_amd64.deb</i> - <b>now is instaltion is disabled</b>
+- included 
+     - deb
+          - protonvpn-stable-release_1.0.1-1_all.deb 
+          - <i>#refind_0.13.2-1_amd64.deb</i> - <b>now is instaltion is disabled</b>
 - downloadable
    - deb
      - franz_5.7.0_amd64.deb
