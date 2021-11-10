@@ -30,7 +30,9 @@ Contain driver for TP-Link Nano and making software update.
      - Telegram
    - run
      - VIPole
-
+- removed 
+     - deb
+          - refind_0.13.2-1_amd64.deb - <b>now is removed from instalation</b>
 
 ### <a name="PLIST"></a> Plans:
 * In progress:
