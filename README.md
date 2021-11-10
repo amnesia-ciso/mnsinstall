@@ -1,6 +1,6 @@
 # mnsinstall
 
-It is script for fast install software bundle "aMNeSia"
+It is script for fast install software bundle "MNS-Ubuntu-msgbundle"
 
 # LINKS
 - [Software list](#SLIST)
