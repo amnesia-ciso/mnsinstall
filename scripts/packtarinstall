@@ -9,7 +9,8 @@ cd .. && chown -R $USER tar
 cd .. && chown -R $USER Software && cd Software
 chmod +x Telegram/* && chmod 777 tor-browser_en-US/*
 cd tor-browser_en-US
-chmod +x start-tor-browser.desktop && su $logname && ./start-tor-browser.desktop --register-app
+chmod +x start-tor-browser.desktop 
+# su - $USER -c "./start-tor-browser.desktop --register-app" 
 cd ../../ && cd mnsinstall && cd scripts
 
 
