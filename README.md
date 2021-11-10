@@ -40,7 +40,8 @@ Contain driver for TP-Link Nano and making software update.
      * Add putty in software list;
  * In future
      * Tails install-script
-     * Li   
+     * EFI boot setup
+     * LiveUSB partition tool 
 ### <a name="TLIST"></a> TESTED IMAGES LIST:
 - ubuntu-20.04.3-desktop-amd64 - <b>success</b>
 - xubuntu-20.04.3-desktop-amd64 - <b>success</b>
@@ -66,7 +67,7 @@ Contain driver for TP-Link Nano and making software update.
       4. extract directory "mnsinstall" to usb device root \
       5. Mount Flash with unziped folder /media USB to your target device. \
       6. OPEN Terminal and execute commands \
-      7. cd /media/$(logname)/<PRESS "TAB" BUTTON HERE IF USB IS SINGLE \
+      7. cd /media/$(logname)/<i>PRESS <b>"TAB"</b> BUTTON HERE IF USB IS SINGLE</i> \
       8. mv mnsinstall /home/$(logname)/ 
 - <b>INSTALL STAGE(9-10)</b> \
       9. cd /home/$(logname)/mnsinstall \
