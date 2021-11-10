@@ -1,1 +1,4 @@
-
+USER=$(logname)
+cd /home/$USER/Software/tor-browser_en_US
+./start-tor-browser.desktop --register-app
+echo "Tor was registered in system like desktop app"
