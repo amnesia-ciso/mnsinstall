@@ -55,8 +55,8 @@ Contain driver for TP-Link Nano and making software update.
 - <b>DOWNLOAD STAGE(1-4)</b> \
       1. OPEN Terminal and execute commands \
       2. sudo apt install git \
-      3. cd /home \
-      4. git clone https://github.com/amnesia-ciso/mnsinstall.git 
+      3. sudo git clone https://github.com/amnesia-ciso/mnsinstall.git \
+      4. sudo chmod +x mnsinstall/install.sh
 -  <b>INSTALL STAGE(5-7)</b> \
       5. cd mnsinstall \
       6. sudo ./install.sh \
