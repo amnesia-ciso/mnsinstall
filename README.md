@@ -5,6 +5,7 @@ It is script for fast install software bundle "aMNeSia"
 # LINKS
 - [Software list](#SLIST)
 - [Plans list](#PLIST)
+- [Tested OS images](#TLIST)
 - [Manual 1: Network install](#MAN1)
 - [Manual 2: Local install](#MAN2)
 - [Contacts and options](#ALSO)
