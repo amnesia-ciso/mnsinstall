@@ -8,6 +8,7 @@ It is script for fast install software bundle "MNS-Ubuntu-msgbundle"
 - [Tested OS images](#TLIST)
 - [Manual 1: Network install](#MAN1)
 - [Manual 2: Local install](#MAN2)
+- [Sripts workflow](#FLOW)
 - [Contacts and options](#ALSO)
 
 It is script for fast install software bundle "aMNeSia"
@@ -74,7 +75,13 @@ Contain driver for TP-Link Nano and making software update.
 - <b>INSTALL STAGE(9-10)</b> \
       9. cd /home/$(logname)/mnsinstall \
       10. sudo ./install.sh 
-
+### <a name="FLOW"></a> Workflow:
+1. -> install.sh - > chmod +x scripts/* 
+2. -> preinstall - > downloading content, make directories, installing drivers.
+3. -> packdebinstall - > installing .debs.
+4. -> packruninstall - > installing .run.
+5. -> packtarinstall - > installing .tar.xz.
+6. -> postinstall - > make apt/apt-get update/upgrade
 ### <a name="ALSO"> <i>also</i>
 - <i>you can make cmd mv mninstall.zip /media/$(logname)/USBDEVICEDIR and extract it in target device .zip  </i>
 - <i>but you should install additional packages, to do this use command - sudo apt install zip unzip.  </i>
