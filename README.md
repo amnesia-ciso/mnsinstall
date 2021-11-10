@@ -32,11 +32,15 @@ Contain driver for TP-Link Nano and making software update.
      - VIPole
 
 
-### <a name="PLIST"></a> IN PROGRESS:
-* Docker container in Docker Hub; 
-* files remove script after installation;  
-* Version without macbook efi boot installation;
-* Add putty in software list;
+### <a name="PLIST"></a> Plans:
+* In progress:
+     * Docker container in Docker Hub; 
+     * files remove script after installation;  
+     * Version without macbook efi boot installation;
+     * Add putty in software list;
+ * In future
+     * Tails install-script
+     * Li   
 ### <a name="TLIST"></a> TESTED IMAGES LIST:
 - ubuntu-20.04.3-desktop-amd64 - <b>success</b>
 - xubuntu-20.04.3-desktop-amd64 - <b>success</b>
