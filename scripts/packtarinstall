@@ -1,7 +1,8 @@
 #!/bin/bash
 #This install making for ur linux bundle of special programs
+
 USER=$(logname)
-cd .. && cd tar
+mkdir /home/$(logname)/Software && cd .. && cd tar
 chown $USER teleg.tar.xz && chown $USER tor.tar.xz
 tar xf teleg.tar.xz -C /home/$(logname)/Software
 tar xf tor.tar.xz -C /home/$(logname)/Software
