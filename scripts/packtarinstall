@@ -3,8 +3,8 @@
 USER=$(logname)
 cd .. && cd tar
 chown $USER teleg.tar.xz && chown $USER tor.tar.xz
-tar xf teleg.tar.xz -C ../../Software
-tar xf tor.tar.xz -C ../../Software
+tar xf teleg.tar.xz -C /home/$(logname)/Software
+tar xf tor.tar.xz -C /home/$(logname)/Software
 cd .. && chown -R $USER tar
 cd .. && chown -R $USER Software && cd Software
 chmod +x Telegram/* && chmod 777 tor-browser_en-US/*
