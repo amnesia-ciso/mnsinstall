@@ -37,12 +37,12 @@ Contain driver for TP-Link Nano and making software update.
 * Version without macbook efi boot installation;
 * Add putty in software list;
 ### <a name="TLIST"></a> TESTED IMAGES LIST:
-- ubuntu-20.04.3-desktop-amd64
-- xubuntu-20.04.3-desktop-amd64
-- lubuntu-19.10-desktop-amd64
-- kali-linux-2021-W45-installer-amd64
-- Parrot-security-4.11.2_amd64
-- Parrot-home-4.11.2_amd64
+- ubuntu-20.04.3-desktop-amd64 - <b>success</b>
+- xubuntu-20.04.3-desktop-amd64 - <b>success</b>
+- lubuntu-19.10-desktop-amd64 - <b>success</b>
+- kali-linux-2021-W45-installer-amd64 - <b>success</b>
+- Parrot-security-4.11.2_amd64 - <b>success</b>
+- Parrot-home-4.11.2_amd64 - <b>success</b>
 ### <a name="MAN1"></a> MANUAL 1: STAGE DOWNLOAD(1-4); INSTALL STAGE(5-8);
 - <b>DOWNLOAD STAGE(1-4)</b> \
       1. OPEN Terminal and execute commands \
