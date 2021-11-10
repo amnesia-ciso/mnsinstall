@@ -50,7 +50,7 @@ Contain driver for TP-Link Nano and making software update.
 - <b>TRANSFER STAGE(1-8)</b> \
       1. Use device with USB hub, and internet connection \
       2. Run web-browser and go to link https://github.com/amnesia-ciso/mnsinstall/archive/refs/heads/main.zip \
-      3. Wait download of .zip file.
+      3. Wait download of .zip file. \
       4. extract directory "mnsinstall" to usb device root \
       5. Mount Flash with unziped folder /media USB to your target device. \
       6. OPEN Terminal and execute commands \
