@@ -1,5 +1,6 @@
 #!/bin/bash
 USER=$(logname)
+
 #This install making for ur linux bundle of special programs
 cd .. && cd drivers/rtl8812au-1-5.3.4
 ./dkms-install.sh
