@@ -1,7 +1,11 @@
 #!/bin/bash
+USER=$(logname)
 apt-get upgrade
 apt upgrade
 apt-get update
 apt update
+cd /home/$USER/mnsinstall/scripts
+chmod +x torappreg
+su - $USER -c "./torappreg"
 echo "INSTALLATION IF FINISHED"
 sleep 100
