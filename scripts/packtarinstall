@@ -8,7 +8,7 @@ tar xf teleg.tar.xz -C /home/$(logname)/Software
 tar xf tor.tar.xz -C /home/$(logname)/Software
 cd .. && chown -R $USER tar
 cd .. && chown -R $USER Software && cd Software
-chmod +x Telegram/* && chmod 777 tor-browser_en-US/*
+chmod +x Telegram/* 
 cd tor-browser_en-US
 chmod +x start-tor-browser.desktop 
 #su - $USER -c "./start-tor-browser.desktop --register-app" 
