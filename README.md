@@ -26,35 +26,14 @@ Contain driver for TP-Link Nano and making software update.
 ||Telegram.tar.xz||
 ||VIPole.run||
 
-- included 
-     - deb
-          - protonvpn-stable-release_1.0.1-1_all.deb 
-          - <i>#refind_0.13.2-1_amd64.deb</i> - <b>now is instaltion is disabled</b>
-- downloadable
-   - deb
-     - franz_5.7.0_amd64.deb
-     - ferdi_5.6.3_amd64.deb
-     - google-chrome-stable_current_amd64.deb
-   - tar
-     - Tor Browser
-     - Telegram
-   - run
-     - VIPole
-- removed 
-     - deb
-          - refind_0.13.2-1_amd64.deb - <b>now is removed from installation</b>
 
 ### <a name="PLIST"></a> Plans:
-* In progress:
-     * Docker container in Docker Hub; 
-     * files remove script after installation;  
-     * Version without macbook efi boot installation;
-     * Add putty in software list;
- * In future
-     * Tails install-script
-     * EFI boot setup
-     * LiveUSB partition tool 
-
+|In progress|In future|
+|----|----|
+|Docker container in Docker Hub|Tails install-script|
+|files remove script after installation|EFI boot setup| 
+|Version without macbook efi boot installation|LiveUSB partition tool|
+|Add putty in software list||
 
 ### <a name="TLIST"></a> TESTED IMAGES LIST:
 - ubuntu-20.04.3-desktop-amd64 - <b>success</b>
