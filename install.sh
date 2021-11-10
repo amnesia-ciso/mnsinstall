@@ -1,18 +1,10 @@
 #!/bin/bash
 #This install making for ur linux bundle of special programs
-
-echo 
-pwd
 cd scripts
-echo 
-pwd
-echo
+echo "Please wait while install from 5 to 10 min"
 ./preinstall
-echo
 ./packdebinstall
-echo
 ./packruninstall
-echo
 ./packtarinstall
-echo
 ./postinstall
+echo "Success script workflow"
